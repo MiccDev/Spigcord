@@ -2,19 +2,20 @@
   "name": "spigcord",
   "version": "0.0.1",
   "description": "A Discord Bot wrapper similar to Bukkit or Spigot.",
-  "main": "src/index.js",
+  "main": "lib/index",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc .",
+    "build": "rmdir /S /Q lib && tsc",
     "devBuild": "tsc --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MiccDev/Spigcord.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["discord", "discord-bot", "bot", "ai", "client", "api", "commands", "events", "discord.js", "discordapp"],
+  "author": "MiccDev",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/MiccDev/Spigcord/issues"
   },
